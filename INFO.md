@@ -14,3 +14,11 @@ To install DataCruncher, run the following command:
 ```bash
 git clone blalabbala
 ```
+
+# Credits
+| Name  | Age | Occupation |
+|--------------|----------|----------|
+|John Doe|29|Developer|
+|Jane Smith|32|Data Analyst|
+|Emily Davis|24|Designer|
+|Dobre to|99|Woow|
