@@ -11,6 +11,6 @@
 # DataCruncher
 ## Installation
 To install DataCruncher, run the following command:
-'''bash
+```bash
 git clone blalabbala
-'''
+```
