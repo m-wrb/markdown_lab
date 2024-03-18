@@ -12,23 +12,5 @@
 ## Installation
 To install DataCruncher, run the following command:
 '''bash
-import os
-from datacrunch import DataCrunchClient
-
-CLIENT_SECRET = os.environ['DATACRUNCH_CLIENT_SECRET']
-CLIENT_ID = 'Ibk5bdxV64lKAWOqYnvSi'
-
-datacrunch = DataCrunchClient(CLIENT_ID, CLIENT_SECRET)
-
-
-ssh_keys = datacrunch.ssh_keys.get()
-ssh_keys = list(map(lambda key: key.id, ssh_keys))
-
-instance = datacrunch.instances.create(instance_type='1V100.6V',
-                                      image='fastai',
-                                      ssh_key_ids=ssh_keys,
-                                      hostname='example',
-                                      description='example instance')
-
-datacrunch.instances.action(instance.id, datacrunch.constants.instance_actions.DELETE)
+git clone blalabbala
 '''
